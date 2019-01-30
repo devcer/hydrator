@@ -7,7 +7,7 @@ restartAlarms();
 browser.runtime.onMessage.addListener(handleMessage);
 
 function handleMessage(request, sender, sendResponse) {
-  console.log(" Time: " + request.time);
+  // console.log(" Time: " + request.time);
   timeInterval= request.time; 
   // timeInterval= request.time/30;
   sendResponse({response: "Time received successfully"});
