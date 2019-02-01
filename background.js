@@ -1,5 +1,5 @@
-var notificationMessage = "Hey buddy, You should drink some water.";
-var notificationTitle = "Stay hidrated!";
+var notificationMessage = "Hey buddy, you should drink some water.";
+var notificationTitle = "Stay hydrated!";
 var timeInterval = 15; 
 // var timeInterval = 0.5;
 
