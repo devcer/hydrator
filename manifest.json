@@ -2,10 +2,10 @@
 
   "manifest_version": 2,
   "name": "Hydrator",
-  "version": "1.0",
+  "version": "2.7",
   "description": "A beautiful Firefox browser addon to remind you to drink water while enjoying browsing.",
   "icons": {
-    "48": "icons/bottle.png"
+    "512": "icons/bottle.png"
   },
   "browser_action": {
     "default_icon": "icons/bottle.png",
