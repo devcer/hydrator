@@ -13,3 +13,15 @@ A browser addon to remind you to drink water frequently while you enjoy your swe
 ## Install and Run the add-on
 * Install `web-ext` cli if you don't have it already ( https://github.com/mozilla/web-ext )
 * Run `web-ext run` to run this addon
+
+### How to Contribute
+
+*   **Fork** the Repository.
+*   **Clone** the project to your own machine
+
+    <pre>git clone https://github.com/devcer/hydrator.git</pre>
+
+*   Look for open **issues**.
+*   **Commit** changes to your own branch.
+*   **Push** your work back to your fork.
+*   Submit a **Pull** request to get your changes reviewed.
