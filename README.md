@@ -5,15 +5,3 @@
 
 # hydrator
 A beautiful Firefox browser addon to remind you to drink water while enjoying browsing.
-
-### How to Contribute
-
-*   **Fork** the Repository.
-*   **Clone** the project to your own machine
-
-    <pre>git clone https://github.com/devcer/hydrator.git</pre>
-
-*   Look for open **issues**.
-*   **Commit** changes to your own branch.
-*   **Push** your work back to your fork.
-*   Submit a **Pull** request to get your changes reviewed.
