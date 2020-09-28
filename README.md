@@ -3,5 +3,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/devcer/hydrator)](https://github.com/devcer/hydrator/stargazers)
 [![GitHub license](https://img.shields.io/github/license/devcer/hydrator)](https://github.com/devcer/hydrator/blob/master/LICENSE)
 
-# hydrator
-A beautiful Firefox browser addon to remind you to drink water while enjoying browsing.
+# Hydrator
+A browser addon to remind you to drink water frequently while you enjoy your sweet time on your computer.
+
+## Download
+
+* You can download and rate the add-on from [here](https://addons.mozilla.org/en-US/firefox/addon/hydrator/)
