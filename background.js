@@ -12,7 +12,13 @@ const facts = [
   'Drinking water helps you to regulate Body temperature! 🚶‍♂️',
   'Did you know that drinking water lubricates the joints? It can even help with your back pain 🎒',
   'Drinking water helps maintaining your blood pressure 🅰️🅱️🆎🅾️',
-  'Studies show that even mild dehydration, such as the loss of 1–3% of body weight, can impair many aspects of brain function.'
+  'Your brain is strongly influenced by your hydration status, make sure to drink water regularly 🧠',
+  'Dehydration can trigger headaches and migraine, drinking water is the cheapest treatment 🧠',
+  'Choose water when eating out. Generally, you will save money and reduce calories 😉',
+  'Carry a water bottle wherever you go, it\'s the mother nature\'s health potion ❤️',
+  'By the time you feel thirsty, your body has lost more than 1% of its total water, so let’s not feel thirst! ⚠️',
+  'Drinking enough water everyday can help reduce heart disease and cancer. Water helps flush toxins out of your body 👩🏻‍⚕️',
+  'There is the same amount of water on Earth as there was when the planet was formed. Believe it or not, the water you drink could share the same molecules that dinosaurs drank 🦖'
 ];
 const notificationMessage = 'Hey buddy, you should drink some water.';
 const notificationTitle = 'Stay hydrated!';
