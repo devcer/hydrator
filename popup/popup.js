@@ -11,14 +11,24 @@ window.onload = () => {
   }
 
   var radios = document.forms['time-form'].elements['time'];
+  // Reference for the timeout so we can clear it midway through
+  let timeoutHandle; 
   for (var i = 0, max = radios.length; i < max; i++) {
     radios[i].onclick = function () {
+      if (timeoutHandle) // reset remaining time 
+          window.clearTimeout(timeoutHandle);
+
       let time = this.value;
+      const statusText = document.getElementById('status');
       localStorage.setItem('time', time);
-      document.getElementById('status').innerText = 'Reminder updated to ' + time + ' mins';
-      setTimeout(() => {
+
+      statusText.classList.remove("hidden");
+      statusText.innerText = 'Reminder updated to \n' + time + ' mins';
+
+      timeoutHandle = setTimeout(() => {
+        statusText.classList.add("hidden");
         document.getElementById('status').innerText = '';
-      }, 5000);
+      }, 4000);
       setTime(Number(this.value));
     }
   }
