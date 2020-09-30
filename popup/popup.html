@@ -9,23 +9,27 @@
 
 <body>
   <p>
-    <center>Remind me to drink water for every</center>
+    <center>Rehydrate every</center>
   </p>
-  <form name="time-form">
-    <div>
-      <input type="radio" name="time" value="15" id="time-15" checked="true"> 15 mins
+  <form class="options" name="time-form">
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="time" value="15" id="time-15" checked>
+      <label class="form-check-label" for="time-15">15 <small>mins</small></label>
     </div>
-    <div>
-      <input type="radio" name="time" value="30" id="time-30"> 30 mins
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="time" value="30" id="time-30"> 
+      <label class="form-check-label" for="time-30">30 <small>mins</small></label>
     </div>
-    <div>
-      <input type="radio" name="time" value="45" id="time-45"> 45 mins
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="time" value="45" id="time-45"> 
+      <label class="form-check-label" for="time-45">45 <small>mins</small></label>
     </div>
-    <div>
-      <input type="radio" name="time" value="60" id="time-60"> 1 hour
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="time" value="60" id="time-60"> 
+      <label class="form-check-label" for="time-60">1 <small>hour</small></label>
     </div>
   </form>
-  <p id="status"></p>
+  <p class="text-success hidden" id="status"></p>
   <script type="text/javascript" src="popup.js"></script>
 </body>
 
