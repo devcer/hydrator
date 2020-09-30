@@ -10,6 +10,7 @@ const facts = [
   'Drinking water when you first get up helps you to improve your immune system! 💪',
   'Do you know drinking water before a workout will protect you from dehydration? 🏋',
   'Drinking water helps you to regulate Body temperature! 🚶‍♂️',
+  'Good hydration can prevent arthritis. With plenty of water in your body, there is less friction in your joints, thus less chance of developing arthritis.💪',
 ];
 const notificationMessage = 'Hey buddy, you should drink some water.';
 const notificationTitle = 'Stay hydrated!';
