@@ -1,4 +1,90 @@
-div{
-	display: inline-block;
-	padding: 20px 0px; 
+body {
+  font-family: Helvetica, "Gill Sans", sans-serif;
+  padding: 10px;
+  background-color: #fff;
+  color: #2d3748;
 }
+
+center {
+  font-size: 25px;
+}
+
+#status {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  padding: 0 30px 0 30px;
+}
+
+.form-check {
+  padding: 0.25rem 1rem;
+  display: block;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.form-check-label {
+  margin-left: 5px;
+  border: 1px solid #2d3748;
+  border-radius: 5px;
+  padding: 8px 25px 6px 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.form-check-label:before {
+  content: "";
+  height: 11px;
+  width: 11px;
+  border: 2px solid #2d3748;
+  border-radius: 50%;
+  margin-right: 11px;
+  position: relative;
+  bottom: 2px;
+}
+
+input[type="radio"]:checked+ label {
+  background-color: #2b6cb0;
+  border: 1px solid #2b6cb0;
+  color: white;
+  font-weight: bold;
+}
+
+input[type="radio"]:checked + label:before {
+  height: 7px;
+  width: 7px;
+  border: 4px solid white;
+}
+
+.form-check-label:hover {
+  background-color: #718096;
+  border-color: #718096;
+  color: #000;
+  font-weight: bold;
+}
+
+.form-check-label:hover:before {
+  border-color: #000;
+}
+
+.text-success {
+  color: white;
+  padding: 5px 0;
+  background-color: #3584E4;
+  border: 1px solid #3584E4;
+  border-radius: 10px
+}
+
+small {
+  padding-left: 3px;
+}
+
+.hidden {
+  display: none;
+}
+
