@@ -11,5 +11,5 @@ A browser addon to remind you to drink water frequently while you enjoy your swe
 * You can download and rate the add-on from [here](https://addons.mozilla.org/en-US/firefox/addon/hydrator/)
 
 ## Install and Run the add-on
-* Install `web-ext` cli if you don't have it already ( https://github.com/mozilla/web-ext )
+* Install `web-ext` cli if you don't have it already (https://github.com/mozilla/web-ext)
 * Run `web-ext run` to run this addon
