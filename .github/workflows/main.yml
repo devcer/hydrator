@@ -24,6 +24,7 @@ jobs:
         
       - name: web-ext Action for Firefox Add-ons
         uses: kewisch/action-web-ext@v1.0
-      
-      - name: Runt linter
-        run: web-ext lint
+        with:
+          cmd: lint
+          source: .
+
