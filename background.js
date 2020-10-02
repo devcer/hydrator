@@ -11,6 +11,7 @@ const facts = [
   'Do you know drinking water before a workout will protect you from dehydration? 🏋',
   'Drinking water helps you to regulate Body temperature! 🚶‍♂️',
 ];
+const factsSize = facts.length;
 const notificationMessage = 'Hey buddy, you should drink some water.';
 const notificationTitle = 'Stay hydrated!';
 var timeInterval = 15;
@@ -27,11 +28,12 @@ function handleMessage(request, sender, sendResponse) {
 }
 
 browser.alarms.onAlarm.addListener(function (alarm) {
+  const fact = facts[Math.floor(Math.random() * factsSize)];
   browser.notifications.create('waterNotification', {
     'type': 'basic',
     'iconUrl': 'icons/bottle.png',
     'title': notificationTitle,
-    'message': notificationMessage + '\n' + facts[Math.floor(Math.random() * 11)]
+    'message': notificationMessage + '\n' + fact
   });
 });
 
