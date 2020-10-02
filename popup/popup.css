@@ -1,8 +1,8 @@
 body {
   font-family: Helvetica, "Gill Sans", sans-serif;
   padding: 10px;
-  background-color: #f7f7f7;
-  color: #14a6e5;
+  background-color: #fff;
+  color: #2d3748;
 }
 
 center {
@@ -29,7 +29,7 @@ input[type="radio"] {
 
 .form-check-label {
   margin-left: 5px;
-  border: 1px solid #14a6e5;
+  border: 1px solid #2d3748;
   border-radius: 5px;
   padding: 8px 25px 6px 25px;
   display: flex;
@@ -41,7 +41,7 @@ input[type="radio"] {
   content: "";
   height: 11px;
   width: 11px;
-  border: 2px solid #14a6e5;
+  border: 2px solid #2d3748;
   border-radius: 50%;
   margin-right: 11px;
   position: relative;
@@ -49,7 +49,8 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked+ label {
-  background-color: #14a6e5;
+  background-color: #2b6cb0;
+  border: 1px solid #2b6cb0;
   color: white;
   font-weight: bold;
 }
@@ -61,21 +62,21 @@ input[type="radio"]:checked + label:before {
 }
 
 .form-check-label:hover {
-  background-color: rgba(20, 166, 229, 0.4);
-  border-color: rgba(20, 166, 229, 0.4);
-  color: white;
+  background-color: #718096;
+  border-color: #718096;
+  color: #000;
   font-weight: bold;
 }
 
 .form-check-label:hover:before {
-  border-color: white;
+  border-color: #000;
 }
 
 .text-success {
   color: white;
   padding: 5px 0;
-  background-color: #5fe23b;
-  border: 1px solid #01c640;
+  background-color: #3584E4;
+  border: 1px solid #3584E4;
   border-radius: 10px
 }
 

@@ -11,6 +11,7 @@ window.onload = () => {
   }
 
   var radios = document.forms['time-form'].elements['time'];
+  const statusText = document.getElementById('status');
   // Reference for the timeout so we can clear it midway through
   let timeoutHandle; 
   for (var i = 0, max = radios.length; i < max; i++) {
@@ -19,7 +20,6 @@ window.onload = () => {
           window.clearTimeout(timeoutHandle);
 
       let time = this.value;
-      const statusText = document.getElementById('status');
       localStorage.setItem('time', time);
 
       statusText.classList.remove("hidden");
@@ -27,7 +27,7 @@ window.onload = () => {
 
       timeoutHandle = setTimeout(() => {
         statusText.classList.add("hidden");
-        document.getElementById('status').innerText = '';
+        statusText.innerText = '';
       }, 4000);
       setTime(Number(this.value));
     }
