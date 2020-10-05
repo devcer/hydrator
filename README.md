@@ -2,6 +2,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/devcer/hydrator)](https://github.com/devcer/hydrator/network)
 [![GitHub stars](https://img.shields.io/github/stars/devcer/hydrator)](https://github.com/devcer/hydrator/stargazers)
 [![GitHub license](https://img.shields.io/github/license/devcer/hydrator)](https://github.com/devcer/hydrator/blob/master/LICENSE)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/devcer/hydrator)](https://github.com/devcer/hydrator/pulls)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/devcer/hydrator)](https://github.com/devcer/hydrator/issues?q=is%3Apr+is%3Aclosed)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/devcer/hydrator)](https://github.com/devcer/hydrator/tags)
 
 # Hydrator
 A browser addon to remind you to drink water frequently while you enjoy your sweet time on your computer.
