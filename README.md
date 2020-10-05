@@ -17,6 +17,7 @@
 
 # **Hydrator**
 A browser addon to remind you to drink water frequently while you enjoy your sweet time on your computer.
+Additionaly include reminder to check the oxygen level either through some smart watch or through oximeter without moving away from your system.
 
 ## About this extension
 
