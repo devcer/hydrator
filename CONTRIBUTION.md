@@ -9,16 +9,18 @@ or a [pull request](https://github.com/devcer/Hydrator/pulls).
 1. Check that there isn't [already an issue](https://github.com/devcer/Hydrator/issues) about your idea to avoid duplicating work.
     * If there isn't one already, please create one so that others know you're working on this
 
-2. Fork the [devcer/Hydrator repository](https://github.com/devcer/Hydrator) to your GitHub account.
+2. Star the [devcer/Hydrator repository](https://github.com/devcer/Hydrator) to your GitHub account ⭐.
 
-3. Clone the forked repository on your local machine.
+3. Fork the [devcer/Hydrator repository](https://github.com/devcer/Hydrator) to your GitHub account 🍴.
+
+4. Clone the forked repository on your local machine 📋💻.
 
  ```bash
  
  git clone https://github.com/<your-github-username>/Hydrator.git
  
  ```
-4. Sync the fork, to avoid merge conflicts. 
+5. Sync the fork, to avoid merge conflicts. 
 
 ```bash
 
@@ -29,7 +31,7 @@ or a [pull request](https://github.com/devcer/Hydrator/pulls).
     
 ```
 
-5. Create a new branch with your github username as its name.
+6. Create a new branch with your github username as its name.
 
  ```bash
  
@@ -37,9 +39,9 @@ or a [pull request](https://github.com/devcer/Hydrator/pulls).
     
  ```
 
-6. Make the necessary changes / additions within your forked repository.
+7. Make the necessary changes / additions within your forked repository.
 
-7. Add and commit changes made.
+8. Add and commit changes made.
 
  ```bash
  
@@ -47,7 +49,7 @@ or a [pull request](https://github.com/devcer/Hydrator/pulls).
     git commit -m "commit message"
     
  ```
-8. Push the changes to forked repository.
+9. Push the changes to forked repository.
 
  ```bash
  
@@ -55,6 +57,6 @@ or a [pull request](https://github.com/devcer/Hydrator/pulls).
     
  ```
 
-9. Submit a Pull Request against the `master` branch and wait for the code to be reviewed and merged.
+10. Submit a Pull Request against the `master` branch and wait for the code to be reviewed and merged.
 
 If you're not used to this workflow with git, you can start with some [basic docs from GitHub](https://help.github.com/articles/fork-a-repo/).

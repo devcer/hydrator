@@ -36,6 +36,6 @@ Stay Healthy and Stay Hydrated!
 * Run `web-ext run` to run this addon
 
 ## Contributing to this repo
-* If you like this repository, feel free to star and fork this repository⭐
-* Have some ideas to improve this project? Please open an issue to do so.
-* While contributing to this project, we request you to have a look at the [contributing guidelines](/CONTRIBUTION.md) 
+* If you like this repository, feel free to star and fork this repository ⭐.
+* Have some ideas to improve this project? Please open an issue to do so 📘🖊️.
+* While contributing to this project, we request you to have a look at the [contributing guidelines](/CONTRIBUTION.md)👀👀.
