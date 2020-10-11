@@ -18,7 +18,9 @@ const facts = [
   'Carry a water bottle wherever you go, it\'s the mother nature\'s health potion ❤️',
   'By the time you feel thirsty, your body has lost more than 1% of its total water, so let’s not feel thirst! ⚠️',
   'Drinking enough water everyday can help reduce heart disease and cancer. Water helps flush toxins out of your body 👩🏻‍⚕️',
-  'There is the same amount of water on Earth as there was when the planet was formed. Believe it or not, the water you drink could share the same molecules that dinosaurs drank 🦖'
+  'There is the same amount of water on Earth as there was when the planet was formed. Believe it or not, the water you drink could share the same molecules that dinosaurs drank 🦖',
+  'Do you know how to say \"I\'m thirsty\" in portuguese? "Estou com sede". Try to speak out loud. 🇧🇷',
+  'Did you know that the largest hydrographic basin in the world is the Amazon Basin, in South America? 🤔'
 ];
 const factsSize = facts.length;
 const notificationMessage = 'Hey buddy, you should drink some water.';
