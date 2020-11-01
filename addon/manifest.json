@@ -4,7 +4,8 @@
   "description": "A browser addon to remind you to drink water frequently while you enjoy your sweet time on your computer.",
   "version": "2.7",
   "icons": {
-    "512": "icons/bottle.png"
+    "48": "icons/icon_48.png",
+    "96": "icons/icon_96.png"
   },
   "background": {
     "scripts": [
@@ -12,7 +13,7 @@
     ]
   },
   "browser_action": {
-    "default_icon": "icons/bottle.png",
+    "default_icon": "icons/icon_96.png",
     "default_title": "Set timegap",
     "default_popup": "popup/popup.html"
   },
