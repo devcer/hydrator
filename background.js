@@ -25,8 +25,12 @@ const notificationMessage = 'Hey buddy, you should drink some water.';
 const notificationTitle = 'Stay hydrated!';
 var timeInterval = 15;
 
-restartAlarms();
-browser.runtime.onMessage.addListener(handleMessage);
+function restartAlarms() {
+  browser.alarms.clearAll();
+  browser.alarms.create('waterReminder', {
+    periodInMinutes: timeInterval
+  });
+}
 
 function handleMessage(request, sender, sendResponse) {
   timeInterval = request.time;
@@ -46,9 +50,5 @@ browser.alarms.onAlarm.addListener(() => {
   });
 });
 
-function restartAlarms() {
-  browser.alarms.clearAll();
-  browser.alarms.create('waterReminder', {
-    periodInMinutes: timeInterval
-  });
-}
+restartAlarms();
+browser.runtime.onMessage.addListener(handleMessage);

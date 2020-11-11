@@ -1,3 +1,9 @@
+function setTime(time) {
+  browser.runtime.sendMessage({
+    time: time
+  });
+}
+
 window.onload = () => {
   if (localStorage.getItem('time') !== null) {
     let time = localStorage.getItem('time');
@@ -14,9 +20,8 @@ window.onload = () => {
   const statusText = document.getElementById('status');
   // Reference for the timeout so we can clear it midway through
   let timeoutHandle;
-  for (var i = 0, max = radios.length; i < max; i++) {
+  for (var i = 0, max = radios.length; i < max; i+=1) {
     radios[i].onclick = (ev) => {
-      debugger;
       if (timeoutHandle) { // reset remaining time
         window.clearTimeout(timeoutHandle);
       }
@@ -32,11 +37,5 @@ window.onload = () => {
       }, 4000);
       setTime(time);
     }
-  }
-
-  function setTime(time) {
-    browser.runtime.sendMessage({
-      time: time
-    });
   }
 };
