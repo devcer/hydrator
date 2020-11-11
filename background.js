@@ -23,7 +23,7 @@ const facts = [
 const factsSize = facts.length;
 const notificationMessage = 'Hey buddy, you should drink some water.';
 const notificationTitle = 'Stay hydrated!';
-var timeInterval = 15;
+let timeInterval = 15;
 
 function restartAlarms() {
   browser.alarms.clearAll();
@@ -46,7 +46,7 @@ browser.alarms.onAlarm.addListener(() => {
     type: 'basic',
     iconUrl: 'icons/bottle.png',
     title: notificationTitle,
-    message: notificationMessage + '\n' + fact
+    message: `${notificationMessage} \n ${fact}`
   });
 });
 
