@@ -36,13 +36,13 @@ function handleMessage(request, sender, sendResponse) {
   restartAlarms();
 }
 
-browser.alarms.onAlarm.addListener(function (alarm) {
+browser.alarms.onAlarm.addListener(() => {
   const fact = facts[Math.floor(Math.random() * factsSize)];
   browser.notifications.create('waterNotification', {
-    'type': 'basic',
-    'iconUrl': 'icons/bottle.png',
-    'title': notificationTitle,
-    'message': notificationMessage + '\n' + fact
+    type: 'basic',
+    iconUrl: 'icons/bottle.png',
+    title: notificationTitle,
+    message: notificationMessage + '\n' + fact
   });
 });
 
