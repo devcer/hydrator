@@ -16,11 +16,11 @@ window.onload = () => {
     }
   }
 
-  let radios = document.forms['time-form'].elements['time'];
+  const radios = document.forms['time-form'].elements['time'];
   const statusText = document.getElementById('status');
   // Reference for the timeout so we can clear it midway through
   let timeoutHandle;
-  for (let i = 0, max = radios.length; i < max; i+=1) {
+  for (let i = 0, max = radios.length; i < max; i += 1) {
     radios[i].onclick = (ev) => {
       if (timeoutHandle) { // reset remaining time
         window.clearTimeout(timeoutHandle);
