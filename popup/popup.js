@@ -1,5 +1,3 @@
-let timeoutHandle;
-
 function setTime(time) {
   browser.runtime.sendMessage({
     time,
@@ -21,6 +19,7 @@ window.onload = () => {
   const timeForm = document.getElementById("time-form");
   const statusText = document.getElementById("status");
   // Reference for the timeout so we can clear it midway through
+  let timeoutHandle = null;
   timeForm.addEventListener("click", (event) => {
     const radioButtonContainer = event.target.closest(".form-check");
     if (radioButtonContainer !== null) {
