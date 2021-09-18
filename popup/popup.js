@@ -1,3 +1,5 @@
+let timeoutHandle;
+
 function setTime(time) {
   browser.runtime.sendMessage({
     time,
@@ -7,7 +9,7 @@ function setTime(time) {
 window.onload = () => {
   if (localStorage.getItem("time") !== null) {
     const time = localStorage.getItem("time");
-    if (time == null) {
+    if (time === null) {
       localStorage.setItem("time", 15);
       document.getElementById("time-15").checked = true;
     } else {
@@ -19,10 +21,9 @@ window.onload = () => {
   const timeForm = document.getElementById("time-form");
   const statusText = document.getElementById("status");
   // Reference for the timeout so we can clear it midway through
-  let timeoutHandle;
   timeForm.addEventListener("click", (event) => {
     const radioButtonContainer = event.target.closest(".form-check");
-    if (typeof radioButtonContainer !== null) {
+    if (radioButtonContainer !== null) {
       const radioButton =
         radioButtonContainer.querySelector(".form-check-input");
       if (timeoutHandle) {
