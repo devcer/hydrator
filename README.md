@@ -22,7 +22,7 @@ A browser addon to remind you to drink water frequently while you enjoy your swe
 
 ## About this extension
 
-Do you miss drinking water while working on your system?
+Do you miss drinking water while working on your computer?
 Need a friend who can remind you to drink water periodically?
 
 Here comes Hydrator - your friend who will help you in staying hydrated

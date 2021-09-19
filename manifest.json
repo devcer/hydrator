@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Hydrator",
   "description": "A browser addon to remind you to drink water frequently while you enjoy your sweet time on your computer.",
-  "version": "2.7",
+  "version": "3.0",
   "icons": {
     "48": "icons/icon_48.png",
     "96": "icons/icon_96.png"
