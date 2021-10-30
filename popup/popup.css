@@ -6,7 +6,8 @@ body {
 }
 
 center {
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #status {
@@ -62,7 +63,7 @@ input[type="radio"]:checked + label:before {
 }
 
 .form-check-label:hover {
-  background-color: #718096;
+  background-color: rgba(113, 128, 150,0.3);
   border-color: #718096;
   color: #000;
   font-weight: bold;
@@ -74,10 +75,12 @@ input[type="radio"]:checked + label:before {
 
 .text-success {
   color: white;
-  padding: 5px 0;
+  padding: 10px 0;
   background-color: #3584E4;
   border: 1px solid #3584E4;
-  border-radius: 10px
+  border-radius: 10px;
+  font-size: 0.8rem;
+
 }
 
 small {
